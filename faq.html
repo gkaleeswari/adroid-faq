@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multiple Choice Questions and FAQs</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="content">
+    <section class="container">
+      <!-- title -->
+      <div class="title">
+        <h2>Multiple Choice Questions</h2>
+      </div>
+      <!-- MCQs -->
+      <div class="mcq-list">
+        <article class="mcq-item">
+          <p class="mcq-question">Which of the following option leads to the portability and security of Java?</p>
+          <ul class="mcq-options">
+            <li data-answer="false">A. Directly executed by hardware</li>
+            <li data-answer="false">B. Compiled into native machine code</li>
+            <li data-answer="true">C. Bytecode is executed by JVM</li>
+            <li data-answer="false">D. None of the above</li>
+          </ul>
+        </article>
+        <article class="mcq-item">
+          <p class="mcq-question">Which of the following is not a Java feature?</p>
+          <ul class="mcq-options">
+            <li data-answer="false">A. Object-oriented</li>
+            <li data-answer="false">B. Platform-independent</li>
+            <li data-answer="true">C. Use of pointers</li>
+            <li data-answer="false">D. Multithreaded</li>
+          </ul>
+        </article>
+        <article class="mcq-item">
+          <p class="mcq-question">The \u0021 article referred to as a</p>
+          <ul class="mcq-options">
+            <li data-answer="true">A. Unicode escape sequence</li>
+            <li data-answer="false">B. Hexadecimal escape sequence</li>
+            <li data-answer="false">C. Octal escape sequence</li>
+            <li data-answer="false">D. Binary escape sequence</li>
+          </ul>
+        </article>
+      </div>
+      
+      <!-- FAQ Section -->
+      <div class="faq-section">
+        <h2>FAQs</h2>
+        <article class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span class="faq-question">Describe the main features of Java:</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Java is known for its platform independence due to the JVM, Object-Oriented Programming, strong memory management, rich API, and robust security features.</p>
+          </div>
+        </article>
+        <div class="faq-section">
+            <h2>FAQs</h2>
+            <article class="faq-item">
+              <button class="faq-button" aria-expanded="false">
+                <span class="faq-question">Explain the significance of JVM in Java:</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="faq-answer">
+                <p>JVM is responsible for converting bytecode to machine-specific code and is necessary in both JDK and JRE. It is also platform-dependent and performs many functions, including memory management and security.</p>
+      </div>
+    </section>
+  </main>
+  <!-- javascript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
+
